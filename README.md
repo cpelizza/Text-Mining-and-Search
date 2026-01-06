@@ -7,7 +7,7 @@ This project is a Jupyter Notebook for processing, analyzing, and clustering new
 Main steps: data loading, text preprocessing, exploratory analysis, feature extraction (TF-IDF & Word2Vec), clustering (KMeans, Agglomerative, DBSCAN), evaluation, and visualization.
 
 ## Requirements
-- Python 3.8+
+- Python 3.11
 - Jupyter Notebook or Google Colab
 - Libraries:
   numpy
