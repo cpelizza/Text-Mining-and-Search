@@ -13,9 +13,9 @@ Main steps: data loading, text preprocessing, exploratory analysis, feature extr
   numpy
   pandas
   matplotlib
-  scikit-learn
+  scikit-learn==1.2.2
   spacy==3.5.0
-  gensim==4.3.1
+  gensim==4.4.0
   yellowbrick==1.5
   wordcloud==1.8.2
   langid==1.1.6
