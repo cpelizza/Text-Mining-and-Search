@@ -3,26 +3,21 @@
 **Author:** [Daria Marinucci, Chiara Pelizza, Matteo Suardi]    
 
 ## Description
-This project is a Jupyter Notebook for processing, analyzing, and clustering news articles from the NYSK dataset. 
-Main steps: data loading, text preprocessing, exploratory analysis, feature extraction (TF-IDF & Word2Vec), clustering (KMeans, Agglomerative, DBSCAN), evaluation, and visualization.
+This project implements a complete text mining pipeline for the analysis of news articles from the NYSK dataset using Jupyter Notebooks.  
+The work is organized into two main components, each implemented in a separate notebook:
+
+- **Document Clustering** (`clustering.ipynb`):  
+  This notebook covers data loading, text preprocessing, exploratory analysis, feature extraction using both sparse lexical representations (TF–IDF) and dense semantic embeddings (Word2Vec and GloVe), unsupervised clustering (K-Means, Agglomerative Clustering, DBSCAN), evaluation, and visualization of results.
+
+- **Text Summarization** (`summarization.ipynb`):  
+  This notebook focuses on automatic summarization of news articles, comparing extractive approaches (SumBasic, LexRank, LexRank with MMR) with an abstractive baseline based on BART. Model performance is evaluated using ROUGE, BLEU, and BERTScore metrics.
+
+Together, the two notebooks provide a comprehensive framework for unsupervised document organization and automatic text summarization.
+
 
 ## Requirements
 - Python 3.11
 - Jupyter Notebook or Google Colab
-- Libraries:
-  numpy
-  pandas
-  matplotlib
-  scikit-learn==1.2.2
-  spacy==3.5.0
-  gensim==4.4.0
-  yellowbrick==1.5
-  wordcloud==1.8.2
-  langid==1.1.6
-  beautifulsoup4==4.12.2
-  lxml==4.9.3
-  textblob
-  nltk
   
 
 ## Running the Notebook
