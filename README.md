@@ -1,4 +1,4 @@
-# Text Mining and Clustering of NYSK articles
+# Text Mining Project: Unsupervised Clustering and Automatic Summarization of News
 
 **Author:** [Daria Marinucci, Chiara Pelizza, Matteo Suardi]    
 
@@ -14,6 +14,8 @@ The work is organized into two main components, each implemented in a separate n
 
 Together, the two notebooks provide a comprehensive framework for unsupervised document organization and automatic text summarization.
 
+The folder also contains the raw dataset (nysk.xml), which is used as input for both the clustering and summarization pipelines. In addition, a preprocessed version of the data (df_preproc.pkl) is provided and used as input for the clustering notebook for the different text representations employed.
+The notebook includes the code required to perform preprocessing from scratch; however, since this step is computationally demanding, we recommend loading the preprocessed file directly. The preprocessing cell is commented out, while the cell for loading the processed file is enabled.
 
 ## Requirements
 - Jupyter Notebook or Google Colab
