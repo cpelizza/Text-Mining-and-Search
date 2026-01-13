@@ -16,7 +16,6 @@ Together, the two notebooks provide a comprehensive framework for unsupervised d
 
 
 ## Requirements
-- Python 3.11
 - Jupyter Notebook or Google Colab
   
 
@@ -24,5 +23,4 @@ Together, the two notebooks provide a comprehensive framework for unsupervised d
 - Open the notebook in Colab or Jupyter
 - Ensure the XML file path is correct
 - Run all cells sequentially
-- The notebook will automatically install all required packages
-- Outputs include preprocessed data, WordClouds, clustering visualizations, and evaluation metrics
+- Outputs include preprocessed data, WordClouds, clustering visualizations and evaluation metrics
