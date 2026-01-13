@@ -10,7 +10,7 @@ The work is organized into two main components, each implemented in a separate n
   This notebook covers data loading, text preprocessing, exploratory analysis, feature extraction using both sparse lexical representations (TF–IDF) and dense semantic embeddings (Word2Vec and GloVe), unsupervised clustering (K-Means, Agglomerative Clustering, DBSCAN), evaluation, and visualization of results.
 
 - **Text Summarization** (`summarization.ipynb`):  
-  This notebook focuses on automatic summarization of news articles, comparing extractive approaches (SumBasic, LexRank, LexRank with MMR) with an abstractive baseline based on BART. Model performance is evaluated using ROUGE, BLEU, and BERTScore metrics.
+  This notebook focuses on automatic summarization of news articles, comparing extractive approaches (SumBasic, LexRank, LexRank with MMR) with an abstractive baseline based on BART. Model performance is evaluated using METEOR, ROUGE, BLEU, and BERTScore metrics.
 
 Together, the two notebooks provide a comprehensive framework for unsupervised document organization and automatic text summarization.
 
