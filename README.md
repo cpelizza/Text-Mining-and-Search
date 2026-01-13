@@ -14,8 +14,17 @@ The work is organized into two main components, each implemented in a separate n
 
 Together, the two notebooks provide a comprehensive framework for unsupervised document organization and automatic text summarization.
 
-The folder also contains the raw dataset (nysk.xml), which is used as input for both the clustering and summarization pipelines. In addition, a preprocessed version of the data (df_preproc.pkl) is provided and used as input for the clustering notebook for the different text representations employed.
-The notebook includes the code required to perform preprocessing from scratch; however, since this step is computationally demanding, we recommend loading the preprocessed file directly. The preprocessing cell is commented out, while the cell for loading the processed file is enabled.
+## Dataset
+The folder contains:
+- Raw dataset: `nysk.xml` (used as input for both clustering and summarization pipelines)
+- Preprocessed dataset: `df_preproc.pkl` (used for clustering notebooks)
+
+The preprocessing code is included in the notebooks but commented out due to its computational demands. It is recommended to use the preprocessed file directly.
+
+## Additional Files
+- Report: `Text_mining_report.pdf`
+- Presentation: `Text_mining_presentation.pdf`
+
 
 ## Requirements
 - Jupyter Notebook or Google Colab
